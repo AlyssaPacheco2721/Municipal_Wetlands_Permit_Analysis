@@ -1,5 +1,3 @@
-# Municipal_Wetlands_Permit_Analysis
-R/tidyverse analysis of simulated municipal wetlands permit data examining workload distribution and review timelines.
 # Municipal Wetlands Permit Review Analysis
 
 An exploratory environmental data analysis examining municipal wetlands permit activity, review timelines, and workload patterns using R.
