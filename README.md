@@ -1,12 +1,12 @@
 # Municipal Wetlands Permit Review Analysis
 
-An exploratory environmental data analysis examining municipal wetlands permit activity, review timelines, and workload patterns using R.
+An exploratory environmental data analysis using **R and tidyverse** to examine municipal wetlands permit activity, review timelines, and workload patterns.
 
 ## Project Overview
 
 This project uses a simulated dataset of 120 municipal wetlands permit records to explore patterns in permit volume and review duration across different permit types.
 
-The analysis was designed to demonstrate how environmental and municipal data can be organized, analyzed, and visualized to support evidence-based review and decision-making.
+The analysis demonstrates how municipal environmental data can be organized, analyzed, and visualized to support evidence-based review and decision-making.
 
 ## Research Questions
 
@@ -17,49 +17,63 @@ The analysis was designed to demonstrate how environmental and municipal data ca
 
 ## Tools & Skills
 
-- R
-- RStudio
-- tidyverse
-- Data wrangling
-- Descriptive statistics
-- Grouped data analysis
-- Data visualization
-- Environmental data analysis
+**R • RStudio • tidyverse • Data Wrangling • Descriptive Statistics • Data Visualization • Environmental Data Analysis**
 
-## Dataset
+---
 
-The project uses a simulated dataset containing 120 municipal wetlands permit records.
+## Permit Volume Analysis
 
-Variables include permit type, wetland resource category, application and decision dates, permit status, and calculated review duration.
+![Permit Volume by Type](figures/Permit_Volume_BarChart.png)
 
-The dataset is simulated for portfolio and analytical practice and does not represent records from an actual municipality.
+Requests for Determination of Applicability (RDAs) represented the largest share of simulated permit activity, followed by Notices of Intent (NOIs) and ANRAD applications.
 
-## Analysis
+### Permit Volume Summary
 
-The analysis summarizes permit activity by type and evaluates differences in review timelines using grouped summary statistics and visualizations.
+![Permit Volume Summary Table](outputs/Permit%20Volume%20Summary%20Table.png)
 
-Outputs include:
+---
 
-- Permit volume by application type
-- Review-time summary statistics
-- Permit volume summary tables
-- Review-time boxplots comparing permit categories
+## Review Time Analysis
+
+![Permit Review Time by Type](figures/Wetlands_Permit_Review_Time_BoxPlot.png)
+
+NOI applications showed somewhat longer average review times, while RDA review times displayed greater variability.
+
+### Review Time Summary
+
+![Review Time Summary Table](outputs/Permit%20Review%20Time%20Summary%20Table.png)
+
+---
 
 ## Key Findings
 
-- Requests for Determination of Applicability (RDAs) represented the largest share of simulated permit activity.
-- Notice of Intent (NOI) applications had somewhat longer average review times.
+- RDAs represented the largest share of simulated permit activity.
+- NOI applications had somewhat longer average review times.
 - RDA review times showed greater variability.
 - Longer individual review periods may reflect case-specific factors rather than permit type alone.
 
 ## Repository Contents
 
-- `wetlands_permits.R` — R code used for the analysis
-- `figures/` — data visualizations produced during the analysis
-- `outputs/` — summary tables
-- `report/` — completed project report
+- [`wetlands_permits.R`](wetlands_permits.R) — R code used for data analysis and visualization
+- [`figures/`](figures/) — project visualizations
+- [`outputs/`](outputs/) — analytical summary tables
+- [`report/`](report/) — completed project report
 - `wetlands_permit_analysis.Rproj` — RStudio project file
 
 ## Future Development
 
-Future versions of this project could incorporate additional variables and statistical methods to investigate factors associated with permit review duration and move from descriptive analysis toward predictive modeling.
+Future analysis could incorporate additional explanatory variables and statistical methods to investigate factors associated with permit review duration.
+
+Potential extensions include regression analysis, statistical testing, and predictive modeling of review timelines.
+
+---
+
+## Data Note
+
+This project uses a **simulated dataset created for portfolio and analytical practice**. It does not contain records from an actual municipality.
+
+## Author
+
+**Alyssa Pacheco**
+
+Environmental Scientist | Coastal & Marine Science | GIS & Environmental Data Analysis
