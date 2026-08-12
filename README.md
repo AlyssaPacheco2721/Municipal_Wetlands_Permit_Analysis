@@ -58,7 +58,7 @@ NOI applications showed somewhat longer average review times, while RDA review t
 - [`figures/`](figures/) — project visualizations
 - [`outputs/`](outputs/) — analytical summary tables
 - [`report/`](report/) — completed project report
-- `wetlands_permit_analysis.Rproj` — RStudio project file
+- [`wetlands_permit_analysis.Rproj`](wetlands_permit_analysis.Rproj) — RStudio project file
 
 ## Future Development
 
